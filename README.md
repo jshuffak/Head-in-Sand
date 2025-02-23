@@ -14,3 +14,7 @@ Head-in-Sand automatically filters posts containing a customizable list of polit
 ✅ **Subtle Placeholders** – Hidden posts are replaced with a small indicator instead of being removed entirely.
 
 💡 **Note:** Some changes may require a page refresh to take full effect.
+
+![Demo of blocking posts](https://github.com/jshuffak/Head-in-Sand/blob/main/demo.png)
+
+![Demo of extension settings](https://github.com/jshuffak/Head-in-Sand/blob/main/demo2.png)
