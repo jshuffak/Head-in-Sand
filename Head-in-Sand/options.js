@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleExtension = document.getElementById("toggleExtension");
     const keywordList = document.getElementById("keywordList");
     const saveButton = document.getElementById("save");
-    const defaultBlockedKeywords = ["politics", "election", "trump", "biden", "elon", "musk", "cybertruck", "democrat", "republican", "congress", "conservative", "murderedbywords", "aoc", "politician", "luigi mangione", "nazi", "gop", "antiwork", "cyberstuck", "govfire"];
+    const defaultBlockedKeywords = ["politics", "election", "trump", "biden", "elon", "musk", "cybertruck", "democrat", "republican", "congress", "conservative", "murderedbywords", "aoc", "politician", "luigi mangione", "nazi", "gop", "antiwork", "cyberstuck", "govfire", "maga", "fednews"];
 
     chrome.storage.sync.get(["blockedKeywords", "extensionEnabled"], (data) => {
         keywordList.value = (data.blockedKeywords && data.blockedKeywords.length ? data.blockedKeywords : defaultBlockedKeywords).join("\n");

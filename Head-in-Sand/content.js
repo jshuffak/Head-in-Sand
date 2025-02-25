@@ -1,4 +1,4 @@
-const defaultBlockedKeywords = ["politics", "election", "trump", "biden", "elon", "musk", "cybertruck", "democrat", "republican", "congress", "conservative", "murderedbywords", "aoc", "politician", "luigi mangione", "nazi", "gop", "antiwork", "cyberstuck", "govfire"];
+const defaultBlockedKeywords = ["politics", "election", "trump", "biden", "elon", "musk", "cybertruck", "democrat", "republican", "congress", "conservative", "murderedbywords", "aoc", "politician", "luigi mangione", "nazi", "gop", "antiwork", "cyberstuck", "govfire", "maga", "fednews"];
 let blockedKeywords = [];
 let extensionEnabled = true;
 

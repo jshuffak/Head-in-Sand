@@ -3,7 +3,7 @@
   "name": "Head-in-Sand",
   "version": "1.0",
   "description": "Hides political Reddit posts.",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["storage"],
   "host_permissions": ["*://www.reddit.com/*"],
   "action": {
     "default_popup": "options.html",
